@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="main-title">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+         <nav id="indice">
+            <h2>Índice</h2>
+            
+               <ul>
+                  <li class="lista"><a class="links" href="#clients">O que são <i>Clients</i>?</a></li>
+                  <li class="lista"><a class="links" href="#servers">O que são <i>Servers</i>?</a></li>
+                  <li class="lista"><a class="links" href="#html">O que é o HTML?</a></li>
+                  <li class="lista"><a class="links" href="#listas">Tipos de listas em HTML</a></li>
+                  <li class="lista"><a class="links" href="#ref">Links de referências</a></li>
+               </ul>
+            </nav>
+
+         <section id="content">
+            
+            <h2 id="clients">O que são <i>Clients</i>?</h2>
+               <p class="paragrafos"><i>Clients</i> é o lado do cliente ou Client Side. É a parte de quem está consumindo a informação na web, através de computadores, smartphones, tablets ou outros dispositivos por meio da internet. Este lado também é conhecido como <i>Front-end</i> e se conecta e extrai informações de um servidor ou <i>Server</i> que é o conceito que veremos a seguir.</p>
+               <button><a href="#indice">Voltar ao topo</a></button>
+
+
+            <h2 id="servers">O que são <i>Servers</i>?</h2>
+               <p class="paragrafos"><i>Server</i> ou <i>Server Side</i> é o lado do servidor. É ali que ficam armazenados os arquivos, e informações que saõ exibidos ou utilizados no <i>Front-end</i> conforme já vimos anteriormente. Podem ser computadores que guardam informações dentro de redes locais como por exemplo no caso de empresas que tem um "computador central" para guardar arquivos, programas, etc. Normalmente precisam de uma grande capacidade de processamento e armazenamento devido à possível alta quantidade de dispositivos conectados e às informações nele contidas.</p>
+                  <h3>Tipos comuns de servidores</h3>
+                     <ul>
+                        <li class="server-types"><strong>Servidores de E-mails</strong></li>
+                              <blockquote> <!--Citação do site "https://kenzie.com.br/blog/servidor/"-->
+                                 <p class="paragrafos">Os servidores de e-mail são, provavelmente, os servidores mais comuns.</p> 
+
+                                 <p class="paragrafos">São eles os responsáveis pelos serviços de hospedagem disponíveis hoje no mercado e neles são armazenados dezenas de milhões de informações em forma de e-mails.</p>
+                              
+                                 <p class="paragrafos">Sem estes servidores nenhum e-mail pode ser enviado ou recebido na sua caixa de entrada, uma vez que é através deles que a transferência de informações entre um remetente e um destinatário é feita.</p>
+                              </blockquote> 
+
+                        <li class="server-types"><strong>Servidores em Nuvem</strong></li>
+                           <blockquote>
+                              <p class="paragrafos">O serviço de armazenagem em nuvem tornou-se muito popular nos últimos anos, mas, para que ele seja possível, é necessário um servidor na nuvem.</p>
+                              <p class="paragrafos">Com ele, diferentes tarefas podem ser executadas e armazenadas remotamente, sem a necessidade de que haja um servidor dentro da empresa que o utilizará.</p>
+                           </blockquote>
+
+                        <li class="server-types"><strong>Servidores de Bancos de Dados</strong></li>
+                           <blockquote>
+                              <p class="paragrafos">Os servidores de banco de dados são aqueles utilizados para melhorar o desempenho do processamento e transferência de dados de redes que recebem um grande número de requisições.</p>
+                              <p class="paragrafos">Serviços de armazenagem, por exemplo, são grandes utilizadores de servidores de bancos de dados, porque precisam arquivar com segurança grande número de dados e informações.</p>
+                           </blockquote>
+
+                        <li class="server-types"><strong>Servidores Web</strong></li>
+                           <blockquote>
+                              <p class="paragrafos">Os servidores web, assim como os servidores de e-mail, são bastante comuns e servem para processar e executar aplicações que disponibilizam conteúdo na internet.</p>
+                           </blockquote>
+                     </ul>
+            <button><a href="#indice">Voltar ao topo</a></button>
+
+            
+            <h2 id="html">O que é o <abbr title="HyperText Markup Language">HTML</abbr>?</h2>
+               <p class="paragrafos">HTML é um acrônimo para <i>HyperText Markup Language</i> (linguagem de marcação de HiperTexto)</p>
+               <p class="paragrafos">Como o próprio nome sugere, é uma linguagem de marcação para páginas web e que podem ser interpretadas pelo navegador.</p>
+               <p class="paragrafos">É composto por <i>tags</i> ou marcações para definir o tipo de texto que está sendo escrito, se é título, parágrafo, citações, listas ou até mesmo imagens, por exemplo. É reconhecido por ser a estrutura de uma página web.</p>
+            <button><a href="#indice">Voltar ao topo</a></button>
+
+            <h2 id="listas">Tipos de listas em HTML</h2>
+
+               <p class="paragrafos">Temos três tipos de listas em HTML; <abbr title="Ordered Lists">Listas Ordenadas</abbr>, <abbr title="Unordered Lists">Listas Não ordenadas</abbr> e <abbr title="Definition Lists">Listas de definição</abbr></p>
+
+               <p class="paragrafos">As <strong>listas ordenadas</strong> são demarcadas por ordem numérica, em sequência, por exemplo:</p>
+                  <ol>
+                     <li>item 1</li>
+                     <li>item 2</li>
+                     <li>item 3</li>
+                  </ol>
+
+               <p>Ou também</p>
+                  <ol type="I">
+                     <li>item 1</li>
+                     <li>item 1</li>
+                     <li>item 1</li>
+                  </ol>
+               
+               <p>A Tag utilizada para se escrever listas ordenadas é a &ltol&gt.</p>
+
+               <p>Ainda existem outras formas de se escrever listas ordenadas, você conseguirá mais detalhes no site oficial do <a href="https://www.w3schools.com/tags/att_ol_type.asp">W3C</a></p>
+
+               <p class="paragrafos">As <strong>listas não ordenadas</strong> são demarcadas por símbolos, por exemplo:</p>
+                  <ul>
+                     <li>item 1</li>
+                     <li>item 2</li>
+                     <li>item 3</li>
+                  </ul>
+               
+               <p>A Tag utilizada para se escrever listas não ordenadas é a &ltul&gt.</p>
+               
+               <p class="paragrafos">Nas <strong>listas de definição</strong> nós usamos as tags &ltdt&gt e &ltdd&gt e tem uma demarcação diferente das demais, veremos sobre estas em um outro artigo.</p>
+            <button><a href="#indice">Voltar ao topo</a></button>
+
+            <hr>
+
+            <h2 id="ref">Links de referências</h2>
+         </section>
+    
+            <ul>
+               <li class="lista"><a class="links" href="http://dio.me" target="_blank">http://dio.me</a></li>
+
+               <li class="lista"><a class="links" href="http://w3c.org" target="_blank">http://w3c.org</a></li>
+
+               <li class="lista"><a class="links" href="https://pt.wikipedia.org/wiki/HTML" target="_blank">https://pt.wikipedia.org/wiki/HTML</a></li>
+
+               <li class="lista"><a class="links" href="https://kenzie.com.br/blog/servidor/" target="_blank">https://kenzie.com.br/blog/servidor/</a></li>
+            </ul>
+         <button><a href="#indice">Voltar ao topo</a></button>
+
+</body>
+</html>

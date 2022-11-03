@@ -1,0 +1,41 @@
+#main-title{
+    text-align: center;
+    font-size: 2.2em;
+}
+
+#indice{
+    margin-left: 40px;
+    margin-bottom: 6em;
+}
+
+.links{
+    margin-top: 1em;
+    font-size: 1.1em;
+    text-decoration: none;
+    color:blue;
+}
+
+.lista{
+    margin-bottom: 1.3em;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
+#content{
+    margin-left: 40px;
+}
+
+.paragrafos{
+    width: 60em;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.server-types{
+    list-style: square;
+}
+
+
+
